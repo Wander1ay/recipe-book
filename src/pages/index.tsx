@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { HeaderDesktop } from '@tui-react/header'
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
             <main>
                 <h1>Recipe Book</h1>
                 <p>Добро пожаловать в приложение с рецептами!</p>
+                <HeaderDesktop>f</HeaderDesktop>
             </main>
         </>
     );
